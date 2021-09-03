@@ -1,2 +1,1 @@
-# devialtovskayajavascript
-# devialtovskayajavascript
+# DevialtovskayaJavaScript
