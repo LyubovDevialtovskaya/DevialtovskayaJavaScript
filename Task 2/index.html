@@ -7,13 +7,25 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>task 2</title>
- 
+
 </head>
 
 <body>
-  <input type="text"/>
-  <input type = "button" onclick="checkEnteredString()"value="Отправить">
-  <script src="/js/main.js" type="module"></script>
+  <input type="text" id="EnterAString" />
+  <input type="button" onclick="checkEnteredValue()" id="SubmitButton" value="Отправить" />
+  <script type="module">
+    document.getElementById("SubmitButton").onclick = checkEnteredValue;
+    function checkEnteredValue() {
+      let name = document.getElementById("EnterAString").value;
+      if (name == "Вячеслав") {
+        alert('Привет, Вячеслав');
+      } else {
+        alert('Нет такого имени');
+      }
+    }
+
+
+  </script>
 </body>
 
 </html>
