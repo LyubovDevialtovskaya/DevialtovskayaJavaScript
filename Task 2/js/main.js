@@ -5,5 +5,5 @@ if (name) {
 } else {
   console.log('Нет такого имени');
 }}
-
+checkEnteredNumber ()
 
