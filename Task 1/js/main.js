@@ -1,11 +1,13 @@
 function checkEnteredValue (){
-let i = 0;
-if (typeof (value==="number")){
-  alert ("Введите число");
-}
-while (i > 7) {
-  alert(  "Привет" );
-  i--;
-}}
-console.log (alert)
+  let val = document.getElementById('EnterANumber').value;
+  document.getElementById('str').innerHTML="Вы ввели:"+val;
 
+if (typeof val !='number'){
+  alert ("Вы ввели не число, введите число");
+  return;
+}
+else (val > 7) 
+  alert("Привет");
+}
+console.log (alert)
+ 
