@@ -1,5 +1,5 @@
 
-var name = 'Вячеслав';
+let name = 'Вячеслав';
 
 if (name) {
   console.log('Привет, Вячеслав');
